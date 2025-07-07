@@ -8,7 +8,7 @@ for number in range(10):
         print('Вы выбрали ножницы')
     elif player == 3:
         print('Вы выбрали бумагу')
-    comp = random.randrange(1,3)
+    comp = random.randint(1,3)
     if comp == 1:
         print('Противник выбрал камень')
     elif comp == 2:
